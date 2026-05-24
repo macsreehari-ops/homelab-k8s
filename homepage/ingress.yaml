@@ -1,35 +1,28 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
+
 metadata:
-  annotations:
-    kubectl.kubernetes.io/last-applied-configuration: |
-      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{},"name":"homepage-ingress","namespace":"homepage"},"spec":{"rules":[{"host":"home.quantumsec.in","http":{"paths":[{"backend":{"service":{"name":"homepage","port":{"number":80}}},"path":"/","pathType":"Prefix"}]}}],"tls":[{"hosts":["home.quantumsec.in"],"secretName":"homepage-tls"}]}}
-  creationTimestamp: "2026-05-24T16:16:26Z"
-  generation: 1
   name: homepage-ingress
   namespace: homepage
-  resourceVersion: "12080"
-  uid: 506b868a-5dd4-46d6-b8fc-1d16ad65bd23
+
 spec:
   ingressClassName: traefik
+
   rules:
   - host: home.quantumsec.in
     http:
       paths:
-      - backend:
+      - path: /
+        pathType: Prefix
+
+        backend:
           service:
             name: homepage
             port:
               number: 80
-        path: /
-        pathType: Prefix
+
   tls:
   - hosts:
     - home.quantumsec.in
+
     secretName: homepage-tls
-status:
-  loadBalancer:
-    ingress:
-    - ip: 10.10.10.70
-    - ip: 10.10.10.71
-    - ip: 10.10.10.72
