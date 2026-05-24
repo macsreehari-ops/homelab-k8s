@@ -8,7 +8,7 @@
         icon: pi-hole.png
 
     - Vaultwarden:
-        href: https://vault.quantumsec.in
+        href: https://thevault.gslb.quantumsec.in
         icon: vaultwarden.png
 
     - TrueNAS:
