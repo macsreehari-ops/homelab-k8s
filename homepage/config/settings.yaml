@@ -1,0 +1,19 @@
+title: QuantumSec Platform
+
+theme: dark
+color: slate
+
+headerStyle: clean
+
+layout:
+  Self Hosted:
+    style: row
+    columns: 4
+
+  Infrastructure:
+    style: row
+    columns: 4
+
+  Kubernetes:
+    style: row
+    columns: 4

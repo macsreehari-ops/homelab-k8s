@@ -1,0 +1,16 @@
+- Developer:
+    - GitHub:
+        - href: https://github.com
+
+    - Kubernetes Docs:
+        - href: https://kubernetes.io/docs/
+
+    - cert-manager Docs:
+        - href: https://cert-manager.io/docs/
+
+- Security:
+    - CVE Details:
+        - href: https://www.cvedetails.com/
+
+    - VirusTotal:
+        - href: https://virustotal.com/
