@@ -35,7 +35,7 @@ data:
             icon: pi-hole.png
 
         - Vaultwarden:
-            href: https://vault.quantumsec.in
+            href: https://thevault.gslb.quantumsec.in
             icon: vaultwarden.png
 
         - TrueNAS:
@@ -91,7 +91,9 @@ data:
         - cert-manager:
             href: https://cert.quantumsec.in
             icon: cert-manager.png
-
+        - ArgoCD:
+            href: https://argocd.quantumsec.in
+            icon: argo-cd.png
   settings.yaml: |
     title: QuantumSec Platform
 
