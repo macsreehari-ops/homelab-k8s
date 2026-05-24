@@ -1,0 +1,122 @@
+apiVersion: v1
+data:
+  bookmarks.yaml: |
+    - Developer:
+        - GitHub:
+            - href: https://github.com
+
+        - Kubernetes Docs:
+            - href: https://kubernetes.io/docs/
+
+        - cert-manager Docs:
+            - href: https://cert-manager.io/docs/
+
+    - Security:
+        - CVE Details:
+            - href: https://www.cvedetails.com/
+
+        - VirusTotal:
+            - href: https://virustotal.com/
+  services.yaml: |
+    - Self Hosted:
+        - Home Assistant:
+            href: https://ha.quantumsec.in
+            icon: home-assistant.png
+
+        - Pi-hole:
+            href: https://pihole.quantumsec.in
+            icon: pi-hole.png
+
+        - Vaultwarden:
+            href: https://vault.quantumsec.in
+            icon: vaultwarden.png
+
+        - TrueNAS:
+            href: https://truenas.quantumsec.in
+            icon: truenas.png
+
+        - Grafana:
+            href: https://grafana.quantumsec.in
+            icon: grafana.png
+
+        - Immich:
+            href: https://photos.quantumsec.in
+            icon: immich.png
+
+        - AdGuard DNS:
+            href: https://adguard.quantumsec.in
+            icon: adguard-home.png
+
+        - Authentik:
+            href: https://auth.quantumsec.in
+            icon: authentik.png
+
+    - Infrastructure:
+        - OPNsense:
+            href: https://opnsense.quantumsec.in
+            icon: opnsense.png
+
+        - PVE-01:
+            href: https://pve-01.quantumsec.in
+            icon: proxmox.png
+
+        - PVE-02:
+            href: https://pve-02.quantumsec.in
+            icon: proxmox.png
+
+        - TL-SG108E:
+            href: http://10.10.10.x
+            icon: tp-link.png
+
+        - Jio Gateway:
+            href: http://192.168.29.1
+            icon: router.png
+
+    - Kubernetes:
+        - Homepage:
+            href: https://home.quantumsec.in
+            icon: homepage.png
+
+        - Whoami:
+            href: https://whoami.quantumsec.in
+            icon: traefik.png
+
+        - cert-manager:
+            href: https://cert.quantumsec.in
+            icon: cert-manager.png
+  settings.yaml: |
+    title: QuantumSec Platform
+
+    theme: dark
+    color: slate
+
+    headerStyle: clean
+
+    layout:
+      Self Hosted:
+        style: row
+        columns: 4
+
+      Infrastructure:
+        style: row
+        columns: 4
+
+      Kubernetes:
+        style: row
+        columns: 4
+  widgets.yaml: |
+    - resources:
+        cpu: true
+        memory: true
+        disk: /
+
+    - search:
+        provider: google
+        target: _blank
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2026-05-24T16:45:08Z"
+  name: homepage-config
+  namespace: homepage
+  resourceVersion: "13419"
+  uid: 1a1cd0ac-e5fb-4f75-9e9d-0baee4b97871

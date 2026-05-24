@@ -1,0 +1,32 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"cert-manager.io/v1","kind":"Certificate","metadata":{"annotations":{},"name":"homepage-cert","namespace":"homepage"},"spec":{"commonName":"home.quantumsec.in","dnsNames":["home.quantumsec.in"],"issuerRef":{"kind":"ClusterIssuer","name":"qs-k3s--ca-issuer"},"secretName":"homepage-tls"}}
+  creationTimestamp: "2026-05-24T16:15:45Z"
+  generation: 1
+  name: homepage-cert
+  namespace: homepage
+  resourceVersion: "12053"
+  uid: 1f7f30d9-c69f-4dd6-9a93-4665d0cb5745
+spec:
+  commonName: home.quantumsec.in
+  dnsNames:
+  - home.quantumsec.in
+  issuerRef:
+    kind: ClusterIssuer
+    name: qs-k3s--ca-issuer
+  secretName: homepage-tls
+status:
+  conditions:
+  - lastTransitionTime: "2026-05-24T16:15:46Z"
+    message: Certificate is up to date and has not expired
+    observedGeneration: 1
+    reason: Ready
+    status: "True"
+    type: Ready
+  notAfter: "2026-08-22T16:15:45Z"
+  notBefore: "2026-05-24T16:15:45Z"
+  renewalTime: "2026-07-23T16:15:45Z"
+  revision: 1
