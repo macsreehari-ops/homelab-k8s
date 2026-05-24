@@ -43,7 +43,7 @@ data:
             icon: truenas.png
 
         - Grafana:
-            href: https://grafana.quantumsec.in
+            href: https://grafana.gslb.quantumsec.in
             icon: grafana.png
 
         - Immich:
