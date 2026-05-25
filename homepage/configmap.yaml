@@ -81,7 +81,7 @@ data:
         
         - Windows Server:
             href: rdp://10.10.10.32
-            icon: windows.png
+            icon: microsoft-windows.png
 
     - Kubernetes:
         - Homepage:
