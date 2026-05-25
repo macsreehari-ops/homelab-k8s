@@ -16,7 +16,7 @@
         icon: truenas.png
 
     - Grafana:
-        href: https://grafana.quantumsec.in
+        href: https://grafana.gslb.quantumsec.in
         icon: grafana.png
 
     - Immich:
@@ -24,16 +24,16 @@
         icon: immich.png
 
     - AdGuard DNS:
-        href: https://adguard.quantumsec.in
+        href: https://dns-01.quantumsec.in
         icon: adguard-home.png
 
     - Authentik:
-        href: https://auth.quantumsec.in
+        href: https://auth.gslb.quantumsec.in
         icon: authentik.png
 
 - Infrastructure:
     - OPNsense:
-        href: https://opnsense.quantumsec.in
+        href: https://10.10.10.1
         icon: opnsense.png
 
     - PVE-01:
