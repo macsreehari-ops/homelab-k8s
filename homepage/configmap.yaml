@@ -51,7 +51,7 @@ data:
             icon: immich.png
 
         - AdGuard DNS:
-            href: https://adguard.quantumsec.in
+            href: https://dns-01.quantumsec.in
             icon: adguard-home.png
 
         - Authentik:
@@ -60,7 +60,7 @@ data:
 
     - Infrastructure:
         - OPNsense:
-            href: https://opnsense.quantumsec.in
+            href: https://10.10.10.1
             icon: opnsense.png
 
         - PVE-01:
@@ -78,6 +78,10 @@ data:
         - Jio Gateway:
             href: http://192.168.29.1
             icon: router.png
+        
+        - Windows Server:
+            href: rdp://10.10.10.32
+            icon: windows-server.png
 
     - Kubernetes:
         - Homepage:
