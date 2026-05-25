@@ -51,6 +51,9 @@
     - Jio Gateway:
         href: http://192.168.29.1
         icon: router.png
+    - Windows Server:
+        href: https://10.10.10.32
+        icon: windows-server.png
 
 - Kubernetes:
     - Homepage:
