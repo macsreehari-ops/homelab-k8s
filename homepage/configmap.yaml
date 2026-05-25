@@ -64,11 +64,11 @@ data:
             icon: opnsense.png
 
         - PVE-01:
-            href: https://pve-01.quantumsec.in
+            href: https://pve-01.quantumsec.in:8006
             icon: proxmox.png
 
         - PVE-02:
-            href: https://pve-02.quantumsec.in
+            href: https://pve-02.quantumsec.in:8006
             icon: proxmox.png
 
         - TL-SG108E:
