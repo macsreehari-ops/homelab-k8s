@@ -51,11 +51,11 @@ data:
             icon: immich.png
 
         - AdGuard DNS:
-            href: https://dns-01.quantumsec.in
+            href: http://dns-01.quantumsec.in
             icon: adguard-home.png
 
         - Authentik:
-            href: https://auth.quantumsec.in
+            href: https://auth.gslb.quantumsec.in
             icon: authentik.png
 
     - Infrastructure:
@@ -81,7 +81,7 @@ data:
         
         - Windows Server:
             href: rdp://10.10.10.32
-            icon: windows-server.png
+            icon: windows.png
 
     - Kubernetes:
         - Homepage:
