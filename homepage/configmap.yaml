@@ -10,9 +10,11 @@ data:
     - Communities:
         - Reddit:
             - href: https://reddit.com/
+            - icon: reddit.png
 
         - Discord:
             - href: https://discord.gg/homelab
+            - icon: discord.png
     - Developer:
         - GitHub:
             - href: https://github.com
