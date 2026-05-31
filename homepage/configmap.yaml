@@ -7,6 +7,12 @@ metadata:
 
 data:
   bookmarks.yaml: |
+    - Communities:
+        - Reddit:
+            - href: https://reddit.com/
+
+        - Discord:
+            - href: https://discord.gg/homelab
     - Developer:
         - GitHub:
             - href: https://github.com
